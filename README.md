@@ -38,14 +38,14 @@ Open your `appsettings.json` and add the following lines:
 
 #### Service Registration
 
-Register this service by calling the `AddRecaptchaService()` method which is an extension method of `IServiceCollection`. For example:
+Register this service by calling the `AddTurnstileService()` method which is an extension method of `IServiceCollection`. For example:
 
 ##### .NET 6
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRecaptchaService();
+builder.Services.AddTurnstileService();
 ```
 
 ##### Prior to .NET 6
@@ -53,7 +53,7 @@ builder.Services.AddRecaptchaService();
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-    services.AddRecaptchaService();
+    services.AddTurnstileService();
 }
 ```
 

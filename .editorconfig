@@ -159,7 +159,7 @@ csharp_preserve_single_line_blocks = true
 # CA1707: Identifiers should not contain underscores
 dotnet_diagnostic.CA1707.severity = none
 
-# CA1812: RecaptchaService is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static members, make it static (Shared in Visual Basic).
+# CA1812: TurnstileService is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static members, make it static (Shared in Visual Basic).
 dotnet_diagnostic.CA1812.severity = suggestion
 
 # CA1308: Normalize strings to uppercase
